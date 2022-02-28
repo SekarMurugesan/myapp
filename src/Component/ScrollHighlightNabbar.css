@@ -1,0 +1,19 @@
+.navContainer {
+  
+    
+    position: sticky;
+    top: 8px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    min-width: 100vh;
+  }
+  .navlink {
+    border-radius: 5px;
+    padding: 10px 50px;
+    background-color: burlywood;
+    margin: 0 10px;
+ 
+    text-decoration: none;
+    min-width: 100vh;
+  }
+  
