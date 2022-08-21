@@ -83,7 +83,7 @@ export default function ScrollHighlightNabbar({ navHeader }) {
       {navHeader.map((header, index) => (
         <a
           key={index + header.headerID}
-          className="navlink col-md"
+          className="navlink col-md fontSize-12vw"
           style={{ backgroundColor: activeIndex === index ? "grey" : "green" }}
           href={`#${header.headerID}`}
         >

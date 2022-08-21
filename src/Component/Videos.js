@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import ScrollHighlightNabbar from "./ScrollHighlightNabbar";
 import "./app.css";
+import video from './Image/video.mp4'
 
 export default function Videos() {
   const section1Ref = useRef();
@@ -32,13 +33,16 @@ export default function Videos() {
   ];
 
   return (
-    <div className="App">
+    <div >
      
-      <h1 className="text-center col-md ">RoadSide Kids <span className="text-center col-md ">Foundation</span></h1>
+      <h1 className="text-left col-lg fontSize-10vw">RoadSide Kids Foundation</h1>
       <br/><br/>
       
       <ScrollHighlightNabbar section3Ref={section3Ref} navHeader={navHeader} />
       <br/>
+      <video width="320" height="240" controls muted autoPlay>
+      <source src={video} type="video/mp4"/>
+      </video>
       <div className="section" ref={section1Ref} id="section1">
       
         Home 
